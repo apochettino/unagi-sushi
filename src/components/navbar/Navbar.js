@@ -31,7 +31,7 @@ export const NavBar = () => {
             <ReactBootStrap.Nav.Link href="#link">Contactanos</ReactBootStrap.Nav.Link>
             
           </ReactBootStrap.Nav>
-          <icoUser/> <p id="user">Mi perfil</p>
+          <icoUser/> <p id="user">Mi cuenta</p>
           <CartWid/>
         </ReactBootStrap.Navbar.Collapse>
       </ReactBootStrap.Navbar>
