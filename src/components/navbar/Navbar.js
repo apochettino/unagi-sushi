@@ -18,7 +18,7 @@ export const NavBar = () => {
 
 
       
-        <ReactBootStrap.Navbar className="color-nav"  expand="lg">
+        <ReactBootStrap.Navbar className="color-nav" variant="dark"  expand="lg">
           <img src={logoUna}/>
         
         <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav"  />
