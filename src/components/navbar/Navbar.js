@@ -4,12 +4,14 @@ import './../navbar/Navbar.css';
 //import './../Item/item.css';
 import * as ReactBootStrap from 'react-bootstrap';
 import { CartWid } from './../cartwidget/Cartwidget';
-import { icoUser } from './../userIco/userIco';
 
 import Navbar from 'react-bootstrap/Navbar';
 
-import logoUna from '../../assets/logoNav.png'
+import logoUna from '../../assets/logoNav.png';
 
+import iconUser from '../../assets/user.png';
+
+import {icoUser} from '../../components/userIco/userIco'
  
 
 export const NavBar = () => {
@@ -31,8 +33,10 @@ export const NavBar = () => {
             <ReactBootStrap.Nav.Link href="#link">Contactanos</ReactBootStrap.Nav.Link>
             
           </ReactBootStrap.Nav>
-          <icoUser/> <p id="user">Mi cuenta</p>
-          <CartWid/>
+          
+          <img src={iconUser} className="icoUs" /> 
+            <p id="user">Mi cuenta</p>
+          <CartWid/> <p id="userCa">Carrito</p>
         </ReactBootStrap.Navbar.Collapse>
       </ReactBootStrap.Navbar>
 

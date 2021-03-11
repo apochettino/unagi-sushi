@@ -9,9 +9,18 @@ import Col from 'react-bootstrap/Col'
 const Text01 = () => {
 
     return (
-        <div className="sectionTex01">           
+        <div className="sectionTex01">    
+
+        <h1 className="usText">Nosotros</h1>
+
        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa at urna metus gravida interdum turpis cras vulputate. Id posuere varius ac neque ut. Elementum velit sed massa cras est ornare mi. Magna fames fusce morbi elementum. Faucibus massa, turpis nisl nulla suscipit in quis. Sit at vitae amet a varius tellus at est. Interdum ultrices aliquet lacus odio consequat, condimentum. Amet varius venenatis eget quam tempus, augue eget. Egestas mollis auctor massa non in commodo, augue cursus donec. Donec cras amet diam aliquet mauris et nulla. Id tellus leo sagittis nulla nulla enim, a congue.</p>
-                  
+              <br></br>    
+            <ul>
+                <li>Productos</li>
+                <li>Eventos</li>
+                <li>Cursos</li>
+                <li>y otro ma</li>
+            </ul>
         </div>
 
 

@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import { NavBar } from './components/navbar/Navbar';
-import HeadBody from './components/headerBod/header'
 import { Home } from './components/Home/home';
 
+import ContHeader from './containers/ContHeader/contHeader'
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <HeadBody/>
+      <ContHeader />     
       <Home greeting={'Bienvenido a Unagi Sushi'}/>    
       
       <header className="App-header">

@@ -6,30 +6,38 @@
 
 #user {
 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #ffffff !important;
+  margin-top: 10px;
 }
 
+#userCa {
 
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff !important;
+  margin-top: 10px;
+  margin: 0px 100px 0px 0px;
+}
 
 .nav-link {
-  margin: 0px 0px 0px 30px;
-  font-family: 'Roboto', sans-serif;
+  margin: 0px 0px 0px 15px;
+  font-family: 'Poppins', sans-serif;
   color: #ffffff !important;
 }
+
 .cartBar {
 
-    margin: 0px 100px 15px 30px;
+    margin: 0px 10px 15px 50px;
     
     
-  }
+}
   
-  .cartBar ul li {
+.icoUs {
+
+  margin: 0px 10px 15px 30px;
   
-    list-style: none;
-  }
   
- 
+}
   
   .cartBar h6 {
   

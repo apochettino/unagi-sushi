@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
+h1 {
+
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+
+
+
+
+header {
+   background: url('../../assets/videoUna.mp4');
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+video {
+
+    padding: 0;
+ 
+}
+
