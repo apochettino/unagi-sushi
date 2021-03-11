@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import { NavBar } from './components/navbar/Navbar';
-
+import HeadBody from './components/headerBod/header'
+import { Home } from './components/Home/home';
 
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
+      <HeadBody/>
+      <Home greeting={'Bienvenido a Unagi Sushi'}/>    
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
