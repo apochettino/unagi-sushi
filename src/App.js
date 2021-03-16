@@ -5,12 +5,17 @@ import { Home } from './components/Home/home';
 
 import ContHeader from './containers/ContHeader/contHeader'
 
+
+import CountContainer from './containers/CountContainer/countContainer';
+
 function App() {
   return (
     <div className="App">
       <NavBar/>
       <ContHeader />     
-      <Home greeting={'Bienvenido a Unagi Sushi'}/>    
+      <Home greeting={'Bienvenido a Unagi Sushi'}/>   
+
+      <CountContainer/> 
       
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
